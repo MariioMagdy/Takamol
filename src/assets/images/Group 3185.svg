@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="403" height="230" viewBox="0 0 403 230">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.047" y1="0.234" x2="0.623" y2="0.613" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e65ad"/>
+      <stop offset="1" stop-color="#173357"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3185" data-name="Group 3185" transform="translate(0)">
+    <rect id="Rectangle_2114" data-name="Rectangle 2114" width="403" height="230" transform="translate(0)" opacity="0.74" fill="url(#linear-gradient)"/>
+    <g id="Group_3184" data-name="Group 3184" transform="translate(152.639 56.505)">
+      <text id="مباحثات_مشتركة_بين_وزير_البترول_والثروة_المعدنية_ورئيس_شركة_هالدر_توبسو_الدنماركية_في_مجالات_التحول_الطاقى" data-name="مباحثات مشتركة بين وزير البترول والثروة المعدنية ورئيس شركة هالدر توبسو الدنماركية في مجالات التحول الطاقى" transform="translate(0.361 37.495)" fill="#feffff" font-size="16" font-family="GESSTextMedium-Medium, GE SS" font-weight="500"><tspan x="47" y="15">مباحثات مشتركة بين وزير</tspan><tspan y="15"> </tspan><tspan x="9" y="37">البترول والثروة المعدنية ورئيس</tspan><tspan y="37"> </tspan></text>
+      <g id="Group_3177" data-name="Group 3177" transform="translate(138.763 0)">
+        <rect id="Rectangle_2104" data-name="Rectangle 2104" width="78" height="23" rx="11.5" transform="translate(-0.401 0.495)" fill="#a81e96"/>
+        <text id="أجتماعات" transform="translate(38.599 15.495)" fill="#feffff" font-size="15" font-family="GESSTextLight-Light, GE SS" font-weight="300"><tspan x="-25" y="0">أجتماعات</tspan></text>
+      </g>
+      <g id="Group_3178" data-name="Group 3178" transform="translate(63.751 97.516)">
+        <g id="Group_3062" data-name="Group 3062">
+          <text id="_الثلاثاء_1_ديسمبر_2021" data-name=" الثلاثاء, 1 ديسمبر 2021" transform="translate(105 14)" fill="#feffff" font-size="13" font-family="GESSTextLight-Light, GE SS" font-weight="300"><tspan x="-104" y="0"> </tspan><tspan y="0">الثلاثاء</tspan><tspan y="0" font-family="SegoeUI-Light, Segoe UI">,</tspan><tspan y="0"> </tspan><tspan y="0">1</tspan><tspan y="0" xml:space="preserve"> ديسمبر </tspan><tspan y="0">2021</tspan></text>
+        </g>
+        <g id="calendar" transform="translate(132.836 1.986)">
+          <path id="Path_3768" data-name="Path 3768" d="M19.368,5.053H15.847V2.813h-1.28V5.054H6.886V2.813H5.606V5.054H2.085a.961.961,0,0,0-.96.96V19.456a.961.961,0,0,0,.96.96H19.368a.961.961,0,0,0,.96-.96V6.013a.961.961,0,0,0-.96-.96Zm-.32,14.082H2.405V6.333h3.2v1.6h1.28v-1.6h7.681v1.6h1.28v-1.6h3.2Z" transform="translate(-1.125 -2.813)" fill="#feffff"/>
+          <path id="Path_3769" data-name="Path 3769" d="M7.875,15.75h1.28v1.28H7.875Z" transform="translate(-4.034 -8.389)" fill="#feffff"/>
+          <path id="Path_3770" data-name="Path 3770" d="M14.063,15.75h1.28v1.28h-1.28Z" transform="translate(-6.702 -8.389)" fill="#feffff"/>
+          <path id="Path_3771" data-name="Path 3771" d="M19.688,15.75h1.28v1.28h-1.28Z" transform="translate(-9.126 -8.389)" fill="#feffff"/>
+          <path id="Path_3772" data-name="Path 3772" d="M25.875,15.75h1.28v1.28h-1.28Z" transform="translate(-11.793 -8.389)" fill="#feffff"/>
+          <path id="Path_3773" data-name="Path 3773" d="M7.875,20.813h1.28v1.28H7.875Z" transform="translate(-4.034 -10.571)" fill="#feffff"/>
+          <path id="Path_3774" data-name="Path 3774" d="M14.063,20.813h1.28v1.28h-1.28Z" transform="translate(-6.702 -10.571)" fill="#feffff"/>
+          <path id="Path_3775" data-name="Path 3775" d="M19.688,20.813h1.28v1.28h-1.28Z" transform="translate(-9.126 -10.571)" fill="#feffff"/>
+          <path id="Path_3776" data-name="Path 3776" d="M25.875,20.813h1.28v1.28h-1.28Z" transform="translate(-11.793 -10.571)" fill="#feffff"/>
+          <path id="Path_3777" data-name="Path 3777" d="M7.875,25.875h1.28v1.28H7.875Z" transform="translate(-4.034 -12.753)" fill="#feffff"/>
+          <path id="Path_3778" data-name="Path 3778" d="M14.063,25.875h1.28v1.28h-1.28Z" transform="translate(-6.702 -12.753)" fill="#feffff"/>
+          <path id="Path_3779" data-name="Path 3779" d="M19.688,25.875h1.28v1.28h-1.28Z" transform="translate(-9.126 -12.753)" fill="#feffff"/>
+          <path id="Path_3780" data-name="Path 3780" d="M25.875,25.875h1.28v1.28h-1.28Z" transform="translate(-11.793 -12.753)" fill="#feffff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_3187" data-name="Group 3187" transform="translate(38.317 86)">
+      <g id="Group_3180" data-name="Group 3180" transform="translate(0 40.159)">
+        <text id="مشاهدة_الصور" data-name="مشاهدة الصور" transform="translate(74 12)" fill="#feffff" font-size="13" font-family="GESSTextLight-Light, GE SS" font-weight="300"><tspan x="-73" y="0">مشاهدة الصور</tspan></text>
+      </g>
+      <path id="image" d="M2.813,32.656H32.656V2.813H2.813ZM30.445,24.1l-7.694-7.694,3.22-3.22,4.474,4.474ZM5.024,5.024H30.445v9.511l-4.474-4.474-4.783,4.782L14.28,7.935,5.024,17.192Zm0,15.294,9.257-9.257L30.445,27.226v3.22H5.024Z" transform="translate(23.714 -2.813)" fill="#feffff"/>
+    </g>
+  </g>
+</svg>

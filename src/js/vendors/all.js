@@ -1,0 +1,3 @@
+// import './swiper';
+
+import './bootstrap';

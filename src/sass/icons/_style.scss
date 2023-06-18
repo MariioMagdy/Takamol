@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ancyxj');
+  src:  url('fonts/icomoon.eot?ancyxj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ancyxj') format('truetype'),
+    url('fonts/icomoon.woff?ancyxj') format('woff'),
+    url('fonts/icomoon.svg?ancyxj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-time:before {
+  content: "\e90e";
+}
+.icon-arrow-ios-downward-outline:before {
+  content: "\e900";
+  color: #50259c;
+}
+.icon-Arrow---Left:before {
+  content: "\e90a";
+  color: #50259c;
+}
+.icon-arrow-left-short:before {
+  content: "\e901";
+  color: #6833a6;
+}
+.icon-arrow-left-short-1:before {
+  content: "\e902";
+  color: #6833a6;
+}
+.icon-bell:before {
+  content: "\e903";
+  color: #50259c;
+}
+.icon-calendar:before {
+  content: "\e904";
+  color: #50259c;
+}
+.icon-download:before {
+  content: "\e905";
+  color: #5e0c96;
+}
+.icon-file-pdf-o:before {
+  content: "\e906";
+  color: #a81e96;
+}
+.icon-Layer_x0020_1:before {
+  content: "\e907";
+  color: #6833a6;
+}
+.icon-Layer_x0020_1-1:before {
+  content: "\e908";
+  color: #2e65ad;
+}
+.icon-Layer_x0020_1-2:before {
+  content: "\e909";
+  color: #00bdc5;
+}
+.icon-picture:before {
+  content: "\e90c";
+}
+.icon-play:before {
+  content: "\e90d";
+}
+.icon-home:before {
+  content: "\e90b";
+}
+.icon-file-empty:before {
+  content: "\e924";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-file-excel:before {
+  content: "\eae2";
+}

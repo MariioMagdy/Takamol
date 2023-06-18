@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.546" height="17.917" viewBox="0 0 19.546 17.917">
+  <g id="calendar" transform="translate(-1.125 -2.813)">
+    <path id="Path_3768" data-name="Path 3768" d="M19.693,5.093H16.11V2.813h-1.3V5.094H6.989V2.813h-1.3V5.094H2.1a.978.978,0,0,0-.978.978V19.753a.978.978,0,0,0,.978.978H19.693a.978.978,0,0,0,.978-.978V6.071a.978.978,0,0,0-.978-.978Zm-.326,14.333H2.428V6.4H5.686V8.025h1.3V6.4h7.818V8.025h1.3V6.4h3.258Z" fill="#50259c"/>
+    <path id="Path_3769" data-name="Path 3769" d="M7.875,15.75h1.3v1.3h-1.3Z" transform="translate(-2.841 -5.445)" fill="#50259c"/>
+    <path id="Path_3770" data-name="Path 3770" d="M14.063,15.75h1.3v1.3h-1.3Z" transform="translate(-5.445 -5.445)" fill="#50259c"/>
+    <path id="Path_3771" data-name="Path 3771" d="M19.688,15.75h1.3v1.3h-1.3Z" transform="translate(-7.813 -5.445)" fill="#50259c"/>
+    <path id="Path_3772" data-name="Path 3772" d="M25.875,15.75h1.3v1.3h-1.3Z" transform="translate(-10.417 -5.445)" fill="#50259c"/>
+    <path id="Path_3773" data-name="Path 3773" d="M7.875,20.813h1.3v1.3h-1.3Z" transform="translate(-2.841 -7.576)" fill="#50259c"/>
+    <path id="Path_3774" data-name="Path 3774" d="M14.063,20.813h1.3v1.3h-1.3Z" transform="translate(-5.445 -7.576)" fill="#50259c"/>
+    <path id="Path_3775" data-name="Path 3775" d="M19.688,20.813h1.3v1.3h-1.3Z" transform="translate(-7.813 -7.576)" fill="#50259c"/>
+    <path id="Path_3776" data-name="Path 3776" d="M25.875,20.813h1.3v1.3h-1.3Z" transform="translate(-10.417 -7.576)" fill="#50259c"/>
+    <path id="Path_3777" data-name="Path 3777" d="M7.875,25.875h1.3v1.3h-1.3Z" transform="translate(-2.841 -9.706)" fill="#50259c"/>
+    <path id="Path_3778" data-name="Path 3778" d="M14.063,25.875h1.3v1.3h-1.3Z" transform="translate(-5.445 -9.706)" fill="#50259c"/>
+    <path id="Path_3779" data-name="Path 3779" d="M19.688,25.875h1.3v1.3h-1.3Z" transform="translate(-7.813 -9.706)" fill="#50259c"/>
+    <path id="Path_3780" data-name="Path 3780" d="M25.875,25.875h1.3v1.3h-1.3Z" transform="translate(-10.417 -9.706)" fill="#50259c"/>
+  </g>
+</svg>
