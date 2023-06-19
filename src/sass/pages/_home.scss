@@ -532,6 +532,12 @@
             @media (max-width: 90.375rem) {
                 width: 100%;
             }
+            .weatherData {
+                font-size: 0.7rem;
+                display: flex;
+                gap: 2px;
+                flex-direction: row-reverse;
+            }
             &-overlay {
                 background: #0096a0e0;
                 > div:first-child {
@@ -599,13 +605,8 @@
                         font-size: 1.3rem;
                         border-bottom: 1px solid var(--white-clr) fff30;
                     }
-                    &::after {
-                        content: 'C °';
+                    > span {
                         font-size: 1.6rem;
-                        font-weight: 300;
-                        position: absolute;
-                        right: 0px;
-                        top: 2.0625rem;
                     }
                     // &::before {
                     //     content: '';
@@ -738,6 +739,9 @@
             grid-row-start: 3;
             border: 1px solid var(--iceBlue-clr) !important;
             background-color: var(--white-clr);
+            > .row {
+                margin: 0;
+            }
             .swiper-container {
                 position: unset;
             }
@@ -819,6 +823,9 @@
         }
         //end swiper
         .currency {
+            > div > .row {
+                margin: 0;
+            }
             grid-row-start: 4;
             .swiper-button-prev {
                 left: 7.6875rem;
@@ -895,6 +902,9 @@
             padding-top: 0.2rem;
         }
         .opinion {
+            > div.row:first-of-type {
+                margin: 0;
+            }
             grid-row-start: 5;
             border: 1px solid var(--iceBlue-clr) !important;
             background-color: var(--white-clr);
@@ -973,6 +983,9 @@
             }
         }
         .petroleum {
+            > div > .row {
+                margin: 0;
+            }
             grid-row-start: 6;
             table {
                 width: 100%;

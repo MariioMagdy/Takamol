@@ -12,7 +12,7 @@ const Currency = () => {
     return (
         <section className='grid-span-2 currency links'>
             <div className='grid-span-2'>
-                <div className='row m-0'>
+                <div className='row'>
                     <div className='col-md-6 header justify-content-start'>
                         <h3 className='mb-0'>أسعار العملات</h3>
                     </div>

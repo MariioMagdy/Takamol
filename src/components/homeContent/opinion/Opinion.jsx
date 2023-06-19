@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from '../sharedComponents/header/Header';
 
 function Opinion() {
     const [value, setValue] = useState('');
@@ -13,20 +14,10 @@ function Opinion() {
     };
     return (
         <section className='grid-span-2 opinion'>
-            <div className='row m-0'>
-                <div className='col-md-6 header p-0'>
-                    <h3 className='mb-0'>استطلاعات الرأي</h3>
-                </div>
-                <div className='col-md-6 text-start header'>
-                    <a
-                        href=''
-                        className='d-flex align-items-center justify-content-end'
-                    >
-                        الأستطلاعات السابقه
-                        <span className='icon-Arrow---Left'></span>
-                    </a>
-                </div>
-            </div>
+            <Header
+                title='أستطلاع الرأي'
+                seeMore='الأستطلاعات السابقة'
+            ></Header>
             <div className='row m-0'>
                 <div className='col-md-12 p-0'>
                     <form action='' onSubmit={handelsub}>

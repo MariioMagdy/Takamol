@@ -12,7 +12,7 @@ function Petroleum() {
     return (
         <section className='grid-span-2 currency links petroleum'>
             <div className='grid-span-2'>
-                <div className='row m-0'>
+                <div className='row'>
                     <div className='col-md-12 header px-4 justify-content-start'>
                         <h3 className='px-2 mb-0'>أسعار البترول</h3>
                     </div>

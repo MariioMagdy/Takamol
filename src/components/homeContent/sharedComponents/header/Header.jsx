@@ -3,7 +3,7 @@ import React from 'react';
 const Header = ({ title, seeMore }) => {
     return (
         <div className='row'>
-            <div className='col-md-6 header'>
+            <div className='col-md-6 header justify-content-start'>
                 <h3>{title}</h3>
             </div>
             <div className='col-md-6 text-start header'>
