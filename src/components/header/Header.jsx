@@ -10,13 +10,13 @@ function Header() {
                     <div className='row'>
                         <div className='col-md-6 pt-3 align-items-center mt-1'>
                             <a href='#'>
-                                <img src={myImage} alt='Logo' />
+                                <img src={myImage} alt='Logo' title='شعار' />
                             </a>
                         </div>
                         <div className='col-md-6 user-info'>
                             <div className='row align-items-center flex-md-nowrap'>
                                 <div className='col-md-3 h3 m-0 text-center'>
-                                    <a href='#'>
+                                    <a href='#' title='أشعارات'>
                                         <span className='icon-bell position-relative'>
                                             <span className='notification'>
                                                 2

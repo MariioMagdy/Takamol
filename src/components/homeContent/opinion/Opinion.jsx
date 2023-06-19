@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Opinion() {
+    const [value, setValue] = useState('');
+    const [result, setResult] = useState('');
+    const handleOptionChange = (event) => {
+        setValue(event.target.value);
+    };
+
+    const handelsub = (event) => {
+        event.preventDefault();
+        setResult(value);
+    };
     return (
         <section className='grid-span-2 opinion'>
             <div className='row m-0'>
@@ -19,7 +29,7 @@ function Opinion() {
             </div>
             <div className='row m-0'>
                 <div className='col-md-12 p-0'>
-                    <form action=''>
+                    <form action='' onSubmit={handelsub}>
                         <label htmlFor='opinion' className='px-5 pt-5 mb-3'>
                             مارأيك في تحديثات الموقع &#x061F;
                         </label>
@@ -30,6 +40,8 @@ function Opinion() {
                                     value='ممتاز'
                                     name='opinion'
                                     id='excellent'
+                                    checked={value === 'ممتاز'}
+                                    onChange={handleOptionChange}
                                 />
                                 ممتاز
                             </label>
@@ -39,6 +51,8 @@ function Opinion() {
                                     value='جيد'
                                     name='opinion'
                                     id='good'
+                                    checked={value === 'جيد'}
+                                    onChange={handleOptionChange}
                                 />
                                 جيد
                             </label>
@@ -48,6 +62,8 @@ function Opinion() {
                                     value='مقبول'
                                     name='opinion'
                                     id='acceptable'
+                                    checked={value === 'مقبول'}
+                                    onChange={handleOptionChange}
                                 />
                                 مقبول
                             </label>
@@ -57,16 +73,18 @@ function Opinion() {
                                     value='سيء'
                                     name='opinion'
                                     id='bad'
+                                    checked={value === 'سيء'}
+                                    onChange={handleOptionChange}
                                 />
                                 سيء
                             </label>
                         </div>
                         <div className='py-4 px-5'>
-                            <button type='button' className='btn btn-dark'>
+                            <button type='submit' className='btn btn-dark'>
                                 تصويت
                             </button>
                             <button type='button' className='btn btn-info'>
-                                نتيجة التصويت
+                                {result ? result : 'نتيجه التصويت'}
                             </button>
                         </div>
                     </form>
