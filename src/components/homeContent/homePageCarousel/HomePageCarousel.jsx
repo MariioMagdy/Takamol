@@ -21,7 +21,9 @@ function HomePageCarousel() {
                                     <span>ديسمبر ٢٠٢١</span>
                                 </div>
                                 <div className='carousel-data'>
-                                    <a className='mb-3'>أخبار</a>
+                                    <a className='mb-3' title='أخبار'>
+                                        أخبار
+                                    </a>
                                     <h2>
                                         وزير البترول يتابع خطط شركات الأنتاج
                                         بمنطقة الصحراء الغربية
@@ -35,7 +37,11 @@ function HomePageCarousel() {
                                     </p>
                                     <div>
                                         <a href=''>معرفة المزيد</a>
-                                        <a href='' className='m-3'>
+                                        <a
+                                            href=''
+                                            className='m-3'
+                                            title='كل الأخبار'
+                                        >
                                             كل الأخبار
                                             <span className='icon-Arrow---Left'></span>
                                         </a>

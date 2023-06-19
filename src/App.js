@@ -15,8 +15,19 @@ import Petroleum from './components/homeContent/petroleum/Petroleum';
 import Gallery from './components/homeContent/gallery/Gallery';
 import Opinion from './components/homeContent/opinion/Opinion';
 import Footer from './components/footer/Footer';
+import { useEffect, useState } from 'react';
 
 function App() {
+    const [data, setData] = useState([]);
+    useEffect(() => {
+        const data = async () => {
+            const res = await fetch('http://localhost:3005/events');
+            const data = await res.json();
+            setData(data);
+        };
+        data();
+    }, []);
+
     return (
         <>
             <div className='homePage-bg homePage-dir'>
@@ -24,13 +35,13 @@ function App() {
                 <HomePageCarousel></HomePageCarousel>
                 <Container>
                     <Document></Document>
-                    <Events></Events>
+                    <Events data={data}></Events>
                     <Weather></Weather>
                     <PrayerTimes></PrayerTimes>
                     <Goldrates></Goldrates>
                     <Links></Links>
                     <Currency></Currency>
-                    <Advertising></Advertising>
+                    <Advertising data={data}></Advertising>
                     <Opinion></Opinion>
                     <Petroleum></Petroleum>
                     <Gallery></Gallery>

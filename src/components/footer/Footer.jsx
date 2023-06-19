@@ -19,6 +19,7 @@ function Footer() {
                     بوابة تواصل قطاع البترول المصرية
                 </div>
             </div>
+            <div></div>
         </footer>
     );
 }

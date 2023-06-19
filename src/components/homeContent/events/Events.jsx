@@ -1,96 +1,17 @@
 import React from 'react';
+import Event from './event/Event';
+import Header from '../sharedComponents/header/Header';
 
-function Events() {
+function Events({ data }) {
     return (
         <section className='events'>
-            <div className='row'>
-                <div className='col-md-6 header'>
-                    <h3>التقويم والأحداث</h3>
-                </div>
-                <div className='col-md-6 text-start header'>
-                    <a
-                        href=''
-                        className='d-flex align-items-center justify-content-end'
-                    >
-                        كل الأحداث
-                        <span className='icon-Arrow---Left'></span>
-                    </a>
-                </div>
-            </div>
+            <Header title='التقويم والأحداث' seeMore='كل الأحداث' />
             <div className='pt-4'>
                 <div className='grid-span-2'>
                     <div className='events-content overflow-auto'>
-                        <div>
-                            <span className='category'>أجتماعات</span>
-                            <h3>الأجتماع الجيلوجي</h3>
-                            <p>
-                                وحضر الأجتماع الجيلوجي أشرف فرج وكيل أول الوزارة
-                                للأتفاقيات والأستكشاف والجيلوجي علاء البطل
-                                الرئيس التنفيذي
-                            </p>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-calendar'></span>
-                                <span>الثلاثاء,١ديسمبر٢٠٢١</span>
-                            </div>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-time'></span>
-                                <span>٩ صباحا - ٢مساءا</span>
-                            </div>
-                        </div>
-                        <div>
-                            <span className='category'>أجتماعات</span>
-                            <h3>
-                                مبادرة جديدة لتعزيز تطبيق ثقافة السلامة
-                                بالمشروعات البترولية
-                            </h3>
-                            <p>
-                                وحضر الأجتماع الجيلوجي أشرف فرج وكيل أول الوزارة
-                                للأتفاقيات والأستكشاف والجيلوجي علاء البطل
-                                الرئيس التنفيذي
-                            </p>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-calendar'></span>
-                                <span>الثلاثاء,١ديسمبر٢٠٢١</span>
-                            </div>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-time'></span>
-                                <span>٩ صباحا - ٢مساءا</span>
-                            </div>
-                        </div>
-                        <div>
-                            <span className='category'>أجتماعات</span>
-                            <h3>الأجتماع الجيلوجي</h3>
-                            <p>
-                                وحضر الأجتماع الجيلوجي أشرف فرج وكيل أول الوزارة
-                                للأتفاقيات والأستكشاف والجيلوجي علاء البطل
-                                الرئيس التنفيذي
-                            </p>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-calendar'></span>
-                                <span>الثلاثاء,١ديسمبر٢٠٢١</span>
-                            </div>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-time'></span>
-                                <span>٩ صباحا - ٢مساءا</span>
-                            </div>
-                        </div>
-                        <div>
-                            <span className='category'>أجتماعات</span>
-                            <h3>الأجتماع الجيلوجي</h3>
-                            <p>
-                                وحضر الأجتماع الجيلوجي أشرف فرج وكيل أول الوزارة
-                                للأتفاقيات والأستكشاف والجيلوجي علاء البطل
-                                الرئيس التنفيذي
-                            </p>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-calendar'></span>
-                                <span>الثلاثاء,١ديسمبر٢٠٢١</span>
-                            </div>
-                            <div className='d-flex  d-flex align-items-center justify-content-start gap-3'>
-                                <span className='icon-time'></span>
-                                <span>٩ صباحا - ٢مساءا</span>
-                            </div>
-                        </div>
+                        {data.map((el) => {
+                            return <Event el={el} key={el.id}></Event>;
+                        })}
                     </div>
                 </div>
             </div>
