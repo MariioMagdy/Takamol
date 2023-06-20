@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../sharedComponents/header/Header';
 import Section from '../sharedComponents/section/Section';
 
 function Opinion() {
-    const [value, setValue] = useState('');
-    const [result, setResult] = useState('');
+    const checkLocalStorage = () => {
+        return window.localStorage.getItem('vote') || '';
+    };
+    const [value, setValue] = useState(checkLocalStorage);
+    const [result, setResult] = useState(checkLocalStorage);
+
     const handleOptionChange = (event) => {
         setValue(event.target.value);
     };
@@ -12,6 +16,7 @@ function Opinion() {
     const handelsub = (event) => {
         event.preventDefault();
         setResult(value);
+        window.localStorage.setItem('vote', value);
     };
     return (
         <Section className='grid-span-2 opinion'>
