@@ -6,10 +6,11 @@ import eventImgFour from '../../../assets/images/Group 3168.png';
 import Header from '../sharedComponents/header/Header';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import Section from '../sharedComponents/section/Section';
 
 function Links() {
     return (
-        <section className='grid-span-2 links'>
+        <Section className='grid-span-2 links'>
             <Header title='روابط ذات صلة' seeMore='كل الروابط'></Header>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -46,7 +47,7 @@ function Links() {
                     </SwiperSlide>
                 </div>
             </Swiper>
-        </section>
+        </Section>
     );
 }
 

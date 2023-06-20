@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
+import Section from '../sharedComponents/section/Section';
 
 function Weather() {
     const [selectedOption, setSelectedOption] = useState('Celsius');
@@ -14,7 +15,7 @@ function Weather() {
             const data = await res.json();
             // const { current } = data;
             setWeatherData(data);
-            console.log(data);
+            // console.log(data);
         };
         egyptWeather();
     }, []);
@@ -30,7 +31,7 @@ function Weather() {
     }, []);
 
     return (
-        <section className='weather'>
+        <Section className='weather'>
             <div className='weather-overlay pt-3 h-100'>
                 <div className='row align-items-center'>
                     <div
@@ -120,7 +121,7 @@ function Weather() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

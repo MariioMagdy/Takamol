@@ -1,9 +1,10 @@
 import React from 'react';
 import myImage from '../../../assets/images/Group 3148.svg';
+import Section from '../sharedComponents/section/Section';
 
 function PrayerTimes() {
     return (
-        <section className='prayer p-4'>
+        <Section className='prayer p-4'>
             <div className='prayer-timing'>
                 <h4>مواعيد الصلاة اليوم في القاهرة</h4>
                 <span>الثلاثاء ١ ديسمبر</span>
@@ -45,7 +46,7 @@ function PrayerTimes() {
                 </div>
                 <img src={myImage} alt='Prayer' />
             </div>
-        </section>
+        </Section>
     );
 }
 

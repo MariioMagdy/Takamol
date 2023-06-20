@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from '../sharedComponents/header/Header';
+import Section from '../sharedComponents/section/Section';
 
 function Document() {
     return (
-        <section className='grid-span-2 document'>
+        <Section className='grid-span-2 document'>
             <Header title='المستندات' seeMore='كل المستندات' />
             <div className='row'>
                 <div className='col-md-12'>
@@ -53,7 +54,7 @@ function Document() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

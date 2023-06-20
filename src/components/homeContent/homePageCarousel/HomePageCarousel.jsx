@@ -1,9 +1,10 @@
 import React from 'react';
 import myImage from '../../../assets/images/iStock-1246706082.png';
+import Section from '../sharedComponents/section/Section';
 
 function HomePageCarousel() {
     return (
-        <section className='row m-0'>
+        <Section className='row m-0'>
             <div
                 id='carouselExampleControls'
                 className='carousel slide col-md-12 p-0'
@@ -90,7 +91,7 @@ function HomePageCarousel() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

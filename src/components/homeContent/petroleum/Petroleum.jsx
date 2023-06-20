@@ -5,12 +5,11 @@ import gallonGroup from '../../../assets/images/Group 3198.svg';
 import kerosene from '../../../assets/images/Layer_x0020_1-2.svg';
 import solar from '../../../assets/images/Layer_x0020_1-1.svg';
 import gas from '../../../assets/images/Layer_x0020_1-5.svg';
-
-// Import Swiper styles
+import Section from '../sharedComponents/section/Section';
 
 function Petroleum() {
     return (
-        <section className='grid-span-2 currency links petroleum'>
+        <Section className='grid-span-2 currency links petroleum'>
             <div className='grid-span-2'>
                 <div className='row'>
                     <div className='col-md-12 header px-4 justify-content-start'>
@@ -133,7 +132,7 @@ function Petroleum() {
                     </Swiper>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

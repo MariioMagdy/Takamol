@@ -1,10 +1,11 @@
 import React from 'react';
 import Event from './event/Event';
 import Header from '../sharedComponents/header/Header';
+import Section from '../sharedComponents/section/Section';
 
 function Events({ data }) {
     return (
-        <section className='events'>
+        <Section className='events'>
             <Header title='التقويم والأحداث' seeMore='كل الأحداث' />
             <div className='pt-4'>
                 <div className='grid-span-2'>
@@ -15,7 +16,7 @@ function Events({ data }) {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

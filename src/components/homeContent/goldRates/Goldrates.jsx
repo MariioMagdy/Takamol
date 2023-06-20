@@ -1,9 +1,10 @@
 import React from 'react';
 import myImage from '../../../assets/images/Group 3165.svg';
+import Section from '../sharedComponents/section/Section';
 
 const Goldrates = () => {
     return (
-        <section className='gold p-3'>
+        <Section className='gold p-3'>
             <div className='gold-header'>
                 <h4>أسعار الذهب اليوم</h4>
                 <span>الثلاثاء ١ ديسمبر</span>
@@ -43,7 +44,7 @@ const Goldrates = () => {
                     <img src={myImage} alt='Gold' className='img-fluid' />
                 </div>
             </div>
-        </section>
+        </Section>
     );
 };
 

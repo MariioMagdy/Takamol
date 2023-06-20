@@ -3,10 +3,11 @@ import adv1 from '../../../assets/images/adv-1.PNG';
 import adv2 from '../../../assets/images/adv-2.PNG';
 import adv3 from '../../../assets/images/adv-3.PNG';
 import adv4 from '../../../assets/images/adv-4.PNG';
+import Section from '../sharedComponents/section/Section';
 
 function Advertising() {
     return (
-        <section className='advertising events'>
+        <Section className='advertising events'>
             <div className='row'>
                 <div className='col-md-6 header p-0'>
                     <h3 className='px-2'>الأعلانات</h3>
@@ -252,7 +253,7 @@ function Advertising() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

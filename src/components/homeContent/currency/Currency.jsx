@@ -1,16 +1,11 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import Section from '../sharedComponents/section/Section';
 
 const Currency = () => {
     return (
-        <section className='grid-span-2 currency links'>
+        <Section className='grid-span-2 currency links'>
             <div className='grid-span-2'>
                 <div className='row'>
                     <div className='col-md-6 header justify-content-start'>
@@ -62,7 +57,7 @@ const Currency = () => {
                     </Swiper>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 };
 

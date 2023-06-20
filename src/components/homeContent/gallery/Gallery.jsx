@@ -1,8 +1,9 @@
 import React from 'react';
+import Section from '../sharedComponents/section/Section';
 
 const Gallery = () => {
     return (
-        <section className='grid-span-4 gallery pt-3 px-3 pb-0'>
+        <Section className='grid-span-4 gallery pt-3 px-3 pb-0'>
             <div className='row m-0'>
                 <div className='col-md-7 right-side p-0'>
                     <div className=''>
@@ -104,7 +105,7 @@ const Gallery = () => {
                 <span>كل الفيديوهات والصور</span>
                 <span className='icon-Arrow---Left p-3'></span>
             </h6>
-        </section>
+        </Section>
     );
 };
 

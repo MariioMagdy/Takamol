@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../sharedComponents/header/Header';
+import Section from '../sharedComponents/section/Section';
 
 function Opinion() {
     const [value, setValue] = useState('');
@@ -13,7 +14,7 @@ function Opinion() {
         setResult(value);
     };
     return (
-        <section className='grid-span-2 opinion'>
+        <Section className='grid-span-2 opinion'>
             <Header
                 title='أستطلاع الرأي'
                 seeMore='الأستطلاعات السابقة'
@@ -81,7 +82,7 @@ function Opinion() {
                     </form>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

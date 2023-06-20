@@ -1,8 +1,6 @@
 import Container from './components/container/Container';
 import Header from './components/header/Header';
 import HomePageCarousel from './components/homeContent/homePageCarousel/HomePageCarousel';
-import './sass/tkamol-ar.scss';
-import './js/vendors/all.js';
 import Document from './components/homeContent/document/Document';
 import Events from './components/homeContent/events/Events';
 import Weather from './components/homeContent/weather/Weather';
@@ -16,6 +14,14 @@ import Gallery from './components/homeContent/gallery/Gallery';
 import Opinion from './components/homeContent/opinion/Opinion';
 import Footer from './components/footer/Footer';
 import { useEffect, useState } from 'react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+//
+import './sass/tkamol-ar.scss';
+import './js/vendors/all.js';
 
 function App() {
     const [data, setData] = useState([]);
