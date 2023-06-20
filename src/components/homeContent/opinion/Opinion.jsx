@@ -75,7 +75,11 @@ function Opinion() {
                             <button type='submit' className='btn btn-dark'>
                                 تصويت
                             </button>
-                            <button type='button' className='btn btn-info'>
+                            <button
+                                disabled
+                                type='button'
+                                className='btn btn-info'
+                            >
                                 {result ? result : 'نتيجه التصويت'}
                             </button>
                         </div>

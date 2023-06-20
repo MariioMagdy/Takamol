@@ -5,7 +5,7 @@ import Section from '../sharedComponents/section/Section';
 
 function Events({ data }) {
     return (
-        <Section className='events'>
+        <Section size='large' className='events'>
             <Header title='التقويم والأحداث' seeMore='كل الأحداث' />
             <div className='pt-4'>
                 <div className='grid-span-2'>
