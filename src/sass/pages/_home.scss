@@ -353,13 +353,23 @@
             a {
                 text-decoration: none;
             }
-            @media (max-width: 90.375rem) {
+
+            @media (max-width: 1630px) {
+                grid-template-columns: auto 0.5fr 1fr;
+                padding-right: 0.5rem;
+                padding-left: 0.5rem;
+            }
+            @media (max-width: 1052px) {
                 display: block;
-                padding-right: 1rem;
-                padding-left: 1rem;
+                padding-right: 5rem;
+                padding-left: 5rem;
                 > section {
                     margin: 1rem 0;
                 }
+            }
+            @media (max-width: 770px) {
+                padding-right: 0.5rem;
+                padding-left: 0.5rem;
             }
         }
         .grid-span-2 {
@@ -767,6 +777,9 @@
                 left: 15.625rem;
                 right: auto;
                 transition: all 0.5s;
+                @media screen and (max-width: 767px) {
+                    left: 6.99rem;
+                }
             }
             .swiper-button-next {
                 border-radius: 50%;
@@ -786,6 +799,9 @@
                     background: var(--iceBlue-clr);
                     right: -3.1875rem;
                     width: 2.6875rem;
+                }
+                @media screen and (max-width: 767px) {
+                    left: 1.125rem;
                 }
             }
             .header {
@@ -939,6 +955,10 @@
                     gap: 3rem;
                     padding: 1rem 0;
                     font-size: 1.5rem;
+                    @media (max-width: 525px) {
+                        gap: 2px;
+                        flex-wrap: wrap;
+                    }
 
                     > label {
                         display: flex;
@@ -1041,30 +1061,38 @@
             }
 
             @media screen and (max-width: 600px) {
-                table,
-                thead,
-                tbody,
-                th,
-                td,
-                tr {
-                    display: block;
-                }
-
                 th {
                     text-align: center;
                     color: #7b7b7b;
                 }
 
+                td,
+                th,
+                td > span {
+                    font-size: 0.7rem !important;
+                }
+
+                // table > tbody > tr > th {
+                //     font-size: 0.6rem !important;
+                // }
+
                 td {
                     text-align: center;
                     border-bottom: none;
                 }
-
-                td:before {
-                    content: attr(data-label);
-                    float: left;
-                    font-weight: bold;
-                    text-transform: uppercase;
+            }
+            @media screen and (max-width: 500px) {
+                td,
+                th,
+                td > span {
+                    font-size: 0.8rem !important;
+                    padding: 0;
+                }
+                td > img {
+                    display: none;
+                }
+                tr > th {
+                    padding: 0 !important;
                 }
             }
             .swiper-button-next,

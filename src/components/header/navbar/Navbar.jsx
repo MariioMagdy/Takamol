@@ -3,7 +3,7 @@ import React from 'react';
 function Navbar() {
     return (
         <nav className='navbar-expand-lg header-padding'>
-            <div className='container-fluid'>
+            <div className=''>
                 <button
                     className='navbar-toggler'
                     type='button'
@@ -16,7 +16,7 @@ function Navbar() {
                     <span className='icon-menu'></span>
                 </button>
                 <div
-                    className='collapse navbar-collapse justify-content-center'
+                    className='collapse navbar-collapse justify-content-center-xs'
                     id='navbarNav'
                 >
                     <ul className='headerNav'>

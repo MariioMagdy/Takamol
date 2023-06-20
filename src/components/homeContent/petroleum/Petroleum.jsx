@@ -29,7 +29,7 @@ function Petroleum() {
                         navigation
                         // onSwiper={(swiper) => console.log(swiper)}
                         // onSlideChange={() => console.log('slide change')}
-                        className='swiper-container'
+                        className='swiper-container p-0'
                     >
                         <div>
                             <SwiperSlide className='swiper-item'>
