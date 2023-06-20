@@ -14,7 +14,10 @@ function Opinion() {
     };
     return (
         <section className='grid-span-2 opinion'>
-            <Header title={5} seeMore='الأستطلاعات السابقة'></Header>
+            <Header
+                title='أستطلاع الرأي'
+                seeMore='الأستطلاعات السابقة'
+            ></Header>
             <div className='row m-0'>
                 <div className='col-md-12 p-0'>
                     <form action='' onSubmit={handelsub}>

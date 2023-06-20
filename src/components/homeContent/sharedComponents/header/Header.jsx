@@ -1,5 +1,18 @@
 import React from 'react';
 
+const propTypes = {
+    string(props, propName, componentName) {
+        console.log(props, propName, componentName);
+        const type = typeof props[propName]; // to deduct the wrong propName type
+        console.log(type);
+        if (type !== 'string') {
+            return new Error(
+                `The component needs ${propName} to be a "string" type but you have sent a ${type} `
+            );
+        }
+    },
+};
+
 const Header = ({ title, seeMore }) => {
     return (
         <div className='row'>
@@ -22,7 +35,7 @@ const Header = ({ title, seeMore }) => {
 Header.propTypes = {
     title(props, propName, componentName) {
         console.log(props, propName, componentName);
-        const type = typeof props[propName];
+        const type = typeof props[propName]; // to deduct the wrong propName type
         console.log(type);
         if (type !== 'string') {
             return new Error(
@@ -32,4 +45,8 @@ Header.propTypes = {
     },
 };
 
+Header.propTypes = {
+    title: propTypes.string,
+    seeMore: propTypes.string,
+};
 export default Header;
