@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import Section from '../sharedComponents/section/Section';
+import VanillaTilt from 'vanilla-tilt';
 
 const Gallery = () => {
+    const leftSide = useRef();
+    const rightSide = useRef();
+
+    useEffect(() => {
+        const tiltEleO = leftSide.current;
+        const tiltEleT = rightSide.current;
+        VanillaTilt.init([tiltEleO, tiltEleT], {
+            max: 0,
+            speed: 400,
+            glare: true,
+            'max-glare': 0.4,
+        });
+    }, []);
     return (
         <Section className='grid-span-4 gallery pt-3 px-3 pb-0'>
             <div className='row m-0'>
-                <div className='col-md-7 right-side p-0'>
+                <div className='col-md-7 right-side p-0' ref={rightSide}>
                     <div className=''>
                         <div className='row right-side-content p-4 d-flex align-items-center m-0'>
                             <div className='col-md-10'>
@@ -30,7 +44,7 @@ const Gallery = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-5 left-side p-0'>
+                <div className='col-md-5 left-side p-0' ref={leftSide}>
                     <div className='row flex-column m-0'>
                         <div className='col-md-12 left-top position-relative'>
                             <div className='row left-top-bottom d-flex align-items-center m-0 position-absolute'>

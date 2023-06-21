@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Navbar from './navbar/Navbar';
 import myImage from '../../assets/images/Group 3029.svg';
 
@@ -10,7 +10,12 @@ function Header() {
                     <div className='row'>
                         <div className='col-md-6 pt-3 align-items-center mt-1'>
                             <a href='#'>
-                                <img src={myImage} alt='Logo' title='شعار' />
+                                <img
+                                    src={myImage}
+                                    alt='Logo'
+                                    title='شعار'
+                                    data-tilt-full-page-listening
+                                />
                             </a>
                         </div>
                         <div className='col-md-6 user-info'>

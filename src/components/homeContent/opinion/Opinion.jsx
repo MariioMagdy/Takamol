@@ -4,7 +4,7 @@ import Section from '../sharedComponents/section/Section';
 
 function Opinion() {
     const checkLocalStorage = () => {
-        return window.localStorage.getItem('vote') || '';
+        return JSON.parse(window.localStorage.getItem('vote') || '');
     };
     const [value, setValue] = useState(checkLocalStorage);
     const [result, setResult] = useState(checkLocalStorage);
@@ -16,7 +16,7 @@ function Opinion() {
     const handelsub = (event) => {
         event.preventDefault();
         setResult(value);
-        window.localStorage.setItem('vote', value);
+        window.localStorage.setItem('vote', JSON.stringify(value));
     };
     return (
         <Section className='grid-span-2 opinion'>
