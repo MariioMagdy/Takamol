@@ -5,7 +5,6 @@ import VanillaTilt from 'vanilla-tilt';
 const Gallery = () => {
     const leftSide = useRef();
     const rightSide = useRef();
-
     useEffect(() => {
         const tiltEleO = leftSide.current;
         const tiltEleT = rightSide.current;
@@ -15,10 +14,6 @@ const Gallery = () => {
             glare: true,
             'max-glare': 0.4,
         });
-        // return () => {
-        //     tiltEleO.vanillaTilt.destroy();
-        //     tiltEleT.vanillaTilt.destroy();
-        // };
     }, []);
     return (
         <Section className='grid-span-4 gallery pt-3 px-3 pb-0'>

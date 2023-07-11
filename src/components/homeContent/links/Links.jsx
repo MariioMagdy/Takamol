@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import eventImgOne from '../../../assets/images/Group 3168.png';
 import eventImgTwo from '../../../assets/images/Group 3171.png';
 import eventImgThree from '../../../assets/images/Group 3170.png';
@@ -51,4 +51,4 @@ function Links() {
     );
 }
 
-export default Links;
+export default memo(Links);

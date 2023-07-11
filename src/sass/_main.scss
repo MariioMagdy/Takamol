@@ -3,6 +3,11 @@
 // Vendors
 @import './vendors/Bootstrap/bootstrap.scss';
 @import './vendors/Swiper/swiper.scss';
+// Import Swiper styles
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
 // icon file import
 @import './icons/style.scss';
 // Pages

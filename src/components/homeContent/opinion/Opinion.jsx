@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Header from '../sharedComponents/header/Header';
 import Section from '../sharedComponents/section/Section';
 
 function Opinion() {
     const checkLocalStorage = () => {
-        return JSON.parse(window.localStorage.getItem('vote') || '');
+        return JSON.parse(window.localStorage.getItem('vote') || null);
     };
     const [value, setValue] = useState(checkLocalStorage);
     const [result, setResult] = useState(checkLocalStorage);

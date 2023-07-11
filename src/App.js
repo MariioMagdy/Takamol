@@ -15,12 +15,8 @@ import {
     Opinion,
     Footer,
 } from './components/all';
+
 import { useEffect, useState } from 'react';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 //
 import './sass/tkamol-ar.scss';
 import './js/vendors/all.js';
@@ -39,7 +35,6 @@ function App() {
         };
         data();
     }, []);
-
     return (
         <>
             <div className='homePage-bg homePage-dir'>
@@ -63,5 +58,4 @@ function App() {
         </>
     );
 }
-
 export default App;
